@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* --------Navigation style section--------- */
+#nav_container {
+    display: flex;
+    position: sticky;
+    padding: 15px 0;
+    width: 100%;
+    top: 0;
+    background-color: #ffdee5;
+    border-bottom: 2px solid #fcc2d6;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn_shop {
+    padding-inline: 35px;
+    padding-block: 15px;
+    margin-inline-end: 80px;
+    background-color: #e55473;
+    color: #fff;
+    /* font-size: 20px; */
+    border: 1px solid #e55473;
+    border-radius: 5px;
+    outline: none;
+    font-size: 15;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.btn_shop:hover {
+    background-color: #fff;
+    color: #e55473;
+    transition: 0.1s;
+}
+
+.logo {
+    font-size: 45px;
+    color: #fff;
+    margin-inline-start: 80px;
+}
+
+.logo>span {
+    color: #e55473;
+}
+
+.nav_ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav_ul li {
+    display: inline-block;
+    margin-inline-end: 20px;
+}
+
+.nav_ul li a {
+    text-decoration: none;
+    color: #4d4d4d;
+}
+
+
+/* -- ----------Banner Section Design Start-------- -- */
+
+.banner_flower_section {
+    background-color: #fceef1;
+    width: 100%;
+}
+
+.banner_container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.banner_card {
+    background-image: url("./images/pngegg.png");
+    height: 500px;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+ 
+.banr_head{
+    font-size: 60px;
+}
+
+.banr_pra{
+    margin:30px 0;
+    font-size: 18px;
+}
