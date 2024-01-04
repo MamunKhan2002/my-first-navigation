@@ -64,6 +64,10 @@
     color: #4d4d4d;
 }
 
+.nav_ul li a:hover{
+    color: #e55473;
+}
+
 
 /* -- ----------Banner Section Design Start-------- -- */
 
